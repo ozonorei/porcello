@@ -74,6 +74,11 @@
 .main-header .header-search input{
     border-radius: 200px 0 0 200px;
 }
+@media(max-width:768px){
+    .phone{
+        display: none;
+    }
+}
 .background{
     background-image: url(images/photo-1596789457968-53acf2be0a41.jpeg);
     background-size: cover;
@@ -100,7 +105,7 @@
 }
 
 .content{
-    max-width: 700px;
+    max-width: 100%;
     margin: 0 auto;
 }
 .content h2{
@@ -144,10 +149,10 @@
     
 }
 .personal input[type="text"]{
-        border: none;
-        padding: 3px 6px;
-        width: 550px;
-        height: 30px;
+    border: none;
+    padding: 3px 6px;
+    width: 550px;
+    height: 30px;
 }
 .submit-bar input[type="submit"]{
     border: none;
@@ -186,7 +191,23 @@
 .clearfix{
     clear: both;
 }
-
+@media(max-width:768px){
+    .content{
+        max-width: 90%;
+    }
+    .personal select{
+        width: 412px;
+    }
+    .personal textarea{
+        width:412px;
+    }
+    .personal input[type="text"]{
+        width: 400px;
+    }
+    .submit-bar{
+        width: 412px;
+    }
+}
 .footer{
     background: #022d24;
 }
@@ -197,7 +218,7 @@
     padding: 2em;
 }
 .footer .footer-logo img{
-    width: 70px;
+    max-width: 70px;
 }
 .footer .footer-logo h4{
     font-size: 20px;
@@ -212,4 +233,12 @@
 }
 .clearfix{
     clear: both;
+}
+@media (max-width:768px){
+    .footer-txt{
+        display: none;
+    }
+    .footer .footer-logo{
+        float: right;
+    }
 }

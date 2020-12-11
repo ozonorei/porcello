@@ -74,6 +74,11 @@
 .main-header .header-search input{
     border-radius: 200px 0 0 200px;
 }
+@media(max-width:768px){
+    .phone{
+        display: none;
+    }
+}
 .background{
     background-image: url(images/photo-1596789457968-53acf2be0a41.jpeg);
     background-size: cover;
@@ -105,6 +110,11 @@
     margin: auto;
     padding-top:50px;
 }
+@media(max-width:768px){
+    .content img{
+        max-width: 80%;
+    }
+}
 .content .txt{
     padding: 100px 0 200px 0;
     max-width: 600px;
@@ -122,6 +132,11 @@
     font-family:標楷體;
 }
 
+@media(max-width:768px){
+    .content .txt{
+        max-width: 80%;
+    }
+}
 
 .footer{
     background: #022d24;
@@ -148,4 +163,12 @@
 }
 .clearfix{
     clear: both;
+}
+@media (max-width:768px){
+    .footer-txt{
+        display: none;
+    }
+    .footer .footer-logo{
+        float: right;
+    }
 }
