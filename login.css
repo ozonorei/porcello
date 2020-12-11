@@ -196,16 +196,16 @@
         max-width: 90%;
     }
     .personal select{
-        width: 412px;
+        width: 312px;
     }
     .personal textarea{
-        width:412px;
+        width:312px;
     }
     .personal input[type="text"]{
-        width: 400px;
+        width: 300px;
     }
     .submit-bar{
-        width: 412px;
+        width: 312px;
     }
 }
 .footer{
@@ -240,5 +240,8 @@
     }
     .footer .footer-logo{
         float: right;
+    }
+    .footer .footer-logo img{
+        display: none;
     }
 }

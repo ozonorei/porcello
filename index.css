@@ -307,4 +307,7 @@
     .footer .footer-logo{
         float: right;
     }
+    .footer .footer-logo img{
+        display: none;
+    }
 }
